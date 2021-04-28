@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[function closePage() {
+    GlideDialogWindow.get().destroy();
+}
+
+function validate() {
+    var choice = gel("field").value;
+    if (choice == "none") {
+        alert("Please select a field");
+        return false;
+    } else {
+        return true;
+    }
+}]]></client_script>
+        <description/>
+        <direct>false</direct>
+        <endpoint/>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+
+	<g:evaluate var="jvar_gr" object="true">
+	   var now_GR = new GlideRecord("sys_dictionary");
+	   now_GR.addQuery("name", "${sysparm_tableName}");
+	   now_GR.addQuery("internal_type","string");
+	   now_GR.addActiveQuery();
+	   now_GR.addNotNullQuery("sys_scope");
+	   now_GR.query();
+	   now_GR;
+	</g:evaluate>
+	
+	<g:ui_form>
+		<div class="modal-body">
+			<label style="padding-left: 5px;padding-right: 5px;font-size: medium;"
+                            for="field">Field</label>
+            <select name="field" id="field" class="form-control mb-4">
+				<option value="none">None</option>
+				<j:while test="${jvar_gr.next()}">
+				  <option value="${jvar_gr.getValue('element')}">${jvar_gr.getValue('column_label')}</option>
+				</j:while>
+			</select>
+			<input type='hidden' id='tableName' name='tableName' value='${sysparm_tableName}'/>
+		</div>
+		<div class="modal-footer">
+            <div class="row">
+                    <input type="button" id="cancel" value="Cancel" class="btn btn-default" style="color:black; background-color:white" onclick="closePage()" />
+                    <input type="submit" id="ok_btn" value="Proceed" class="btn btn-primary" onclick="return validate()" style='margin-right: 4%'/>
+			</div>
+        </div>
+	</g:ui_form>	
+	
+</j:jelly>]]></html>
+        <name>SelectFieldtobeFilterized</name>
+        <processing_script><![CDATA[try {
+    redirect(tableName);
+    startProcess(tableName, field);
+} catch (err) {
+    redirect(tableName);
+    gs.error("field filterization " + err);
+}
+
+function startProcess(givenTable, givenField) {
+
+    var choiceGR = new GlideRecord("sys_choice");
+    choiceGR.addQuery("name", givenTable);
+    choiceGR.addQuery("element", givenField);
+    choiceGR.addQuery("inacitve", false);
+    choiceGR.query();
+    if (choiceGR.hasNext()) {
+        gs.addErrorMessage("The requested field already has some choices defined");
+        return;
+    }
+
+    var choices = [];
+    var tableGR = new GlideAggregate(givenTable);
+    tableGR.addAggregate("COUNT", givenField);
+    tableGR.query();
+    while (tableGR.next()) {
+        if (tableGR[givenField]) {
+            choices.push(tableGR[givenField] + '');
+        }
+    }
+
+    for (var i in choices) {
+        choiceGR.initialize();
+        choiceGR.newRecord();
+        choiceGR.name = givenTable;
+        choiceGR.element = givenField;
+        choiceGR.label = choices[i];
+        choiceGR.value = choices[i];
+        choiceGR.sequence = i;
+		choiceGR.hint = "Custom DM Choice";
+        choiceGR.insert();
+    }
+    var dictGR = new GlideRecord("sys_dictionary");
+    dictGR.addQuery("name", givenTable);
+    dictGR.addQuery("element", givenField);
+    dictGR.setLimit(1);
+    dictGR.query();
+    dictGR.next();
+    dictGR.choice = 1;
+    dictGR.update();
+}
+
+// Redirect to a record of a table of choice
+function redirect(tableName) {
+    var baseUrl = gs.getProperty('glide.servlet.uri');
+    var redirectURI = baseUrl + tableName + "_list.do?";
+    response.sendRedirect(redirectURI);
+}]]></processing_script>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-27 12:15:34</sys_created_on>
+        <sys_id>459d84d52f33201035053f96f699b6d3</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>SelectFieldtobeFilterized</sys_name>
+        <sys_package display_value="Data Miner" source="ecf0febe2fe3601035053f96f699b6b9">ecf0febe2fe3601035053f96f699b6b9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Data Miner">ecf0febe2fe3601035053f96f699b6b9</sys_scope>
+        <sys_update_name>sys_ui_page_459d84d52f33201035053f96f699b6d3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-27 15:06:38</sys_updated_on>
+    </sys_ui_page>
+</record_update>
