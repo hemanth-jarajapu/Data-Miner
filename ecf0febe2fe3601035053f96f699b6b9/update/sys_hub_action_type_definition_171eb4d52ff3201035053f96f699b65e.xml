@@ -13,7 +13,7 @@
         <ih_action>false</ih_action>
         <internal_name>dm__perform_disablement</internal_name>
         <label_cache>[{"name":"{{action.table_name}}","label":"action➛Table Name","type":"action","ref":""},{"name":"{{step[e384ac58-5def-4f9e-8e3d-cc89ed2edcc1].variable}}","label":"step➛Script step➛variable","type":"step","ref":""},{"name":"{{step[e384ac58-5def-4f9e-8e3d-cc89ed2edcc1].disableresult}}","label":"step➛Script step➛disableResult","type":"step","ref":""},{"name":"{{step[e384ac58-5def-4f9e-8e3d-cc89ed2edcc1].fieldstomodify}}","label":"step➛Script step➛fieldsToModify","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>fd8440e92fff201035053f96f699b611</latest_snapshot>
+        <latest_snapshot>3b714e002f48701035053f96f699b647</latest_snapshot>
         <master_snapshot>b3908d592ff3201035053f96f699b6d5</master_snapshot>
         <name>DM - Perform Disablement</name>
         <natlang/>
@@ -26,15 +26,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>171eb4d52ff3201035053f96f699b65e</sys_id>
-        <sys_mod_count>40</sys_mod_count>
+        <sys_mod_count>45</sys_mod_count>
         <sys_name>DM - Perform Disablement</sys_name>
         <sys_overrides/>
         <sys_package display_value="Data Miner" source="ecf0febe2fe3601035053f96f699b6b9">ecf0febe2fe3601035053f96f699b6b9</sys_package>
         <sys_policy/>
         <sys_scope display_value="Data Miner">ecf0febe2fe3601035053f96f699b6b9</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_171eb4d52ff3201035053f96f699b65e</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-04-28 05:26:53</sys_updated_on>
+        <sys_updated_by>hemanth.jarajapu</sys_updated_by>
+        <sys_updated_on>2021-05-06 08:57:42</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -70,10 +70,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-04-27 15:10:52</sys_created_on>
         <sys_id>da908d592ff3201035053f96f699b635</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Data Miner">ecf0febe2fe3601035053f96f699b6b9</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-04-28 05:26:46</sys_updated_on>
+        <sys_updated_by>hemanth.jarajapu</sys_updated_by>
+        <sys_updated_on>2021-05-06 08:57:29</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=da908d592ff3201035053f96f699b635"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -126,12 +126,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-04-27 15:10:52</sys_created_on>
         <sys_id>ee908d592ff3201035053f96f699b645</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-04-28 05:26:46</sys_updated_on>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_updated_by>hemanth.jarajapu</sys_updated_by>
+        <sys_updated_on>2021-05-06 08:57:29</sys_updated_on>
         <value>(function execute(inputs, outputs) {
   var uiAction = new GlideRecord("sys_ui_action");
-  uiAction.addQuery("action_name", "createDMChoices");
+  uiAction.addQuery("action_name", "data_mining_ops");
   uiAction.addQuery("table", inputs['table_name']);
   uiAction.addQuery("list_banner_button", true);
   uiAction.setLimit(1);
@@ -775,17 +775,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="DM - Perform Disablement">171eb4d52ff3201035053f96f699b65e</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"18a0cd592ff3201035053f96f699b64e","name":"plan"}}</plan>
-        <snapshot>fd8440e92fff201035053f96f699b611</snapshot>
+        <snapshot>3b714e002f48701035053f96f699b647</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-04-27 15:11:00</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>18a0cd592ff3201035053f96f699b64e</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-04-28 05:26:54</sys_updated_on>
+        <sys_updated_by>hemanth.jarajapu</sys_updated_by>
+        <sys_updated_on>2021-05-06 08:57:43</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -855,10 +855,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-04-27 15:10:58</sys_created_on>
         <sys_id>4ca08d592ff3201035053f96f699b6e0</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope display_value="Data Miner">ecf0febe2fe3601035053f96f699b6b9</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-04-28 05:26:53</sys_updated_on>
+        <sys_updated_by>hemanth.jarajapu</sys_updated_by>
+        <sys_updated_on>2021-05-06 08:57:41</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4ca08d592ff3201035053f96f699b6e0"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -925,12 +925,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-04-27 15:10:59</sys_created_on>
         <sys_id>c4a0cd592ff3201035053f96f699b614</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-04-28 05:26:53</sys_updated_on>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_updated_by>hemanth.jarajapu</sys_updated_by>
+        <sys_updated_on>2021-05-06 08:57:41</sys_updated_on>
         <value>(function execute(inputs, outputs) {
   var uiAction = new GlideRecord("sys_ui_action");
-  uiAction.addQuery("action_name", "createDMChoices");
+  uiAction.addQuery("action_name", "data_mining_ops");
   uiAction.addQuery("table", inputs['table_name']);
   uiAction.addQuery("list_banner_button", true);
   uiAction.setLimit(1);

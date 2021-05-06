@@ -12,7 +12,7 @@
         <description>When a Data Mining request record is created, perform the requested operation on the requested table</description>
         <internal_name>dm__actonrequestcreation</internal_name>
         <label_cache>[{"name":"712e9235-974e-43d0-a623-fb31c973d443.table_name","label":"17➛Data Mining Table","reference":"u_data_mining","reference_display":"Data Mining","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"712e9235-974e-43d0-a623-fb31c973d443.record","label":"17➛Data Mining Record","reference":"u_data_mining","reference_display":"Data Mining","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7464d4f4-44b0-4f3d-8710-8d8904a6a889.table_name","label":"14➛Data Mining Table","reference":"u_data_mining","reference_display":"Data Mining","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7464d4f4-44b0-4f3d-8710-8d8904a6a889.record","label":"14➛Data Mining Record","reference":"u_data_mining","reference_display":"Data Mining","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1191aeb2-4280-413e-bb12-b5ded6e13e6b.disableresult","label":"12➛disableResult","reference_display":"disableResult","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"a36dce42-a96b-4dbf-aeaa-cdf29531d41b"}},{"name":"498fb171-f794-4db3-82bb-1bfc02ddb955.table_name","label":"1➛Data Mining Table","reference":"u_data_mining","reference_display":"Data Mining","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"498fb171-f794-4db3-82bb-1bfc02ddb955.record","label":"1➛Data Mining Record","reference":"u_data_mining","reference_display":"Data Mining","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"24b49276-4a5b-4cac-8a1b-c8ce472fbafb.Count","label":"2➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"24b49276-4a5b-4cac-8a1b-c8ce472fbafb.Table","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"24b49276-4a5b-4cac-8a1b-c8ce472fbafb.Records","label":"2➛Records","reference_display":"Records","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.u_operation","label":"Trigger➛Data Mining Record➛Operation","reference":"","reference_display":"Operation","type":"choice","base_type":"choice","parent_table_name":"u_data_mining","column_name":"u_operation"},{"name":"Created_1.current","label":"Trigger➛Data Mining Record","reference":"u_data_mining","reference_display":"Data Mining","type":"reference","base_type":"reference","attributes":{}},{"name":"Created_1.current.u_table.name","label":"Trigger➛Data Mining Record➛Table➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_db_object","column_name":"name"},{"name":"c649e78f-0387-4d42-9b8b-31e064996942.enableresult","label":"3➛enableResult","reference_display":"enableResult","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"d6591303-ad00-4315-a5e6-c936498bfb07"}},{"name":"a80801c4-3d1b-4d71-ae02-9e6e4f12d25d.record","label":"5➛Data Mining Record","reference":"u_data_mining","reference_display":"Data Mining","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a80801c4-3d1b-4d71-ae02-9e6e4f12d25d.table_name","label":"5➛Data Mining Table","reference":"u_data_mining","reference_display":"Data Mining","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"518c2f66-75bd-45d4-bfd3-a08c530274b7.record","label":"8➛Data Mining Record","reference":"u_data_mining","reference_display":"Data Mining","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"518c2f66-75bd-45d4-bfd3-a08c530274b7.table_name","label":"8➛Data Mining Table","reference":"u_data_mining","reference_display":"Data Mining","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
-        <latest_snapshot>c9b404e92fff201035053f96f699b653</latest_snapshot>
+        <latest_snapshot>3f128a402f48701035053f96f699b6cf</latest_snapshot>
         <master_snapshot>7f15099d2ff3201035053f96f699b60f</master_snapshot>
         <name>DM - ActOnRequestCreation</name>
         <natlang/>
@@ -347,10 +347,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-04-28 04:00:58</sys_created_on>
         <sys_id>07d073152fbf201035053f96f699b610</sys_id>
-        <sys_mod_count>42</sys_mod_count>
+        <sys_mod_count>44</sys_mod_count>
         <sys_scope display_value="Data Miner">ecf0febe2fe3601035053f96f699b6b9</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2021-04-28 05:27:41</sys_updated_on>
+        <sys_updated_on>2021-05-06 09:00:36</sys_updated_on>
         <ui_id>712e9235-974e-43d0-a623-fb31c973d443</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=07d073152fbf201035053f96f699b610"/>
@@ -434,10 +434,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-04-27 14:59:39</sys_created_on>
         <sys_id>5a0e34d52ff3201035053f96f699b698</sys_id>
-        <sys_mod_count>56</sys_mod_count>
+        <sys_mod_count>58</sys_mod_count>
         <sys_scope display_value="Data Miner">ecf0febe2fe3601035053f96f699b6b9</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2021-04-28 05:27:41</sys_updated_on>
+        <sys_updated_on>2021-05-06 09:00:35</sys_updated_on>
         <ui_id>c649e78f-0387-4d42-9b8b-31e064996942</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=5a0e34d52ff3201035053f96f699b698"/>
@@ -469,10 +469,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-04-27 15:30:19</sys_created_on>
         <sys_id>5f05859d2ff3201035053f96f699b627</sys_id>
-        <sys_mod_count>54</sys_mod_count>
+        <sys_mod_count>56</sys_mod_count>
         <sys_scope display_value="Data Miner">ecf0febe2fe3601035053f96f699b6b9</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2021-04-28 05:27:41</sys_updated_on>
+        <sys_updated_on>2021-05-06 09:00:35</sys_updated_on>
         <ui_id>1191aeb2-4280-413e-bb12-b5ded6e13e6b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=5f05859d2ff3201035053f96f699b627"/>
@@ -504,10 +504,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-04-28 03:56:27</sys_created_on>
         <sys_id>81dfef912fbf201035053f96f699b6da</sys_id>
-        <sys_mod_count>44</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_scope display_value="Data Miner">ecf0febe2fe3601035053f96f699b6b9</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2021-04-28 05:27:41</sys_updated_on>
+        <sys_updated_on>2021-05-06 09:00:35</sys_updated_on>
         <ui_id>a80801c4-3d1b-4d71-ae02-9e6e4f12d25d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=81dfef912fbf201035053f96f699b6da"/>
@@ -591,10 +591,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-04-28 03:56:28</sys_created_on>
         <sys_id>91df23d12fbf201035053f96f699b60c</sys_id>
-        <sys_mod_count>44</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_scope display_value="Data Miner">ecf0febe2fe3601035053f96f699b6b9</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2021-04-28 05:27:41</sys_updated_on>
+        <sys_updated_on>2021-05-06 09:00:35</sys_updated_on>
         <ui_id>518c2f66-75bd-45d4-bfd3-a08c530274b7</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=91df23d12fbf201035053f96f699b60c"/>
@@ -678,10 +678,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-04-28 04:00:57</sys_created_on>
         <sys_id>cbd073152fbf201035053f96f699b604</sys_id>
-        <sys_mod_count>42</sys_mod_count>
+        <sys_mod_count>44</sys_mod_count>
         <sys_scope display_value="Data Miner">ecf0febe2fe3601035053f96f699b6b9</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2021-04-28 05:27:41</sys_updated_on>
+        <sys_updated_on>2021-05-06 09:00:36</sys_updated_on>
         <ui_id>7464d4f4-44b0-4f3d-8710-8d8904a6a889</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=cbd073152fbf201035053f96f699b604"/>
@@ -765,10 +765,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-04-28 03:41:31</sys_created_on>
         <sys_id>e26c6bdd2f7f201035053f96f699b607</sys_id>
-        <sys_mod_count>46</sys_mod_count>
+        <sys_mod_count>48</sys_mod_count>
         <sys_scope display_value="Data Miner">ecf0febe2fe3601035053f96f699b6b9</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2021-04-28 05:27:41</sys_updated_on>
+        <sys_updated_on>2021-05-06 09:00:35</sys_updated_on>
         <ui_id>498fb171-f794-4db3-82bb-1bfc02ddb955</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e26c6bdd2f7f201035053f96f699b607"/>
@@ -1627,7 +1627,7 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"a425099d2ff3201035053f96f699b6e0","name":"plan"}}</plan>
         <plan_id>f9a6f85d2fb3201035053f96f699b685</plan_id>
-        <snapshot>c9b404e92fff201035053f96f699b653</snapshot>
+        <snapshot>3f128a402f48701035053f96f699b6cf</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-04-27 15:30:40</sys_created_on>
         <sys_domain>global</sys_domain>

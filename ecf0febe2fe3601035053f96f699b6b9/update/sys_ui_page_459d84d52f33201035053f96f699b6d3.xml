@@ -2,7 +2,7 @@
     <sys_ui_page action="INSERT_OR_UPDATE">
         <category>general</category>
         <client_script><![CDATA[function closePage() {
-    GlideDialogWindow.get().destroy();
+    GlideModal.get().destroy();
 }
 
 function validate() {
@@ -11,6 +11,7 @@ function validate() {
         alert("Please select a field");
         return false;
     } else {
+		gel("message").innerHTML = "Please wait while we create the choices for you...";
         return true;
     }
 }]]></client_script>
@@ -47,6 +48,7 @@ function validate() {
                     <input type="button" id="cancel" value="Cancel" class="btn btn-default" style="color:black; background-color:white" onclick="closePage()" />
                     <input type="submit" id="ok_btn" value="Proceed" class="btn btn-primary" onclick="return validate()" style='margin-right: 4%'/>
 			</div>
+			<div id="message" class="pull-left" style='margin-top: 2%'></div>
         </div>
 	</g:ui_form>	
 	
@@ -113,13 +115,13 @@ function redirect(tableName) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-04-27 12:15:34</sys_created_on>
         <sys_id>459d84d52f33201035053f96f699b6d3</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_name>SelectFieldtobeFilterized</sys_name>
         <sys_package display_value="Data Miner" source="ecf0febe2fe3601035053f96f699b6b9">ecf0febe2fe3601035053f96f699b6b9</sys_package>
         <sys_policy/>
         <sys_scope display_value="Data Miner">ecf0febe2fe3601035053f96f699b6b9</sys_scope>
         <sys_update_name>sys_ui_page_459d84d52f33201035053f96f699b6d3</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-04-27 15:06:38</sys_updated_on>
+        <sys_updated_by>hemanth.jarajapu</sys_updated_by>
+        <sys_updated_on>2021-05-06 09:38:00</sys_updated_on>
     </sys_ui_page>
 </record_update>

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="u_number" label="Number" language="en" table="u_sample_incident_data">
+    <sys_documentation element="" label="Service Task Demo" language="en" table="x_402923_sc_demo_service_task_demo">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>u_number</element>
+            <element/>
             <help/>
             <hint/>
-            <label>Number</label>
+            <label>Service Task Demo</label>
             <language>en</language>
-            <name>u_sample_incident_data</name>
-            <plural>Numbers</plural>
+            <name>x_402923_sc_demo_service_task_demo</name>
+            <plural>Service Task Demos</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>hemanth.jarajapu</sys_created_by>
-            <sys_created_on>2021-04-20 13:23:36</sys_created_on>
-            <sys_id>47e428872faf601035053f96f699b6fa</sys_id>
+            <sys_created_on>2021-05-05 15:25:07</sys_created_on>
+            <sys_id>8d909a772ff7201035053f96f699b6d8</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Number</sys_name>
+            <sys_name>Service Task Demo</sys_name>
             <sys_package display_value="Data Miner" source="ecf0febe2fe3601035053f96f699b6b9">ecf0febe2fe3601035053f96f699b6b9</sys_package>
             <sys_policy/>
             <sys_scope display_value="Data Miner">ecf0febe2fe3601035053f96f699b6b9</sys_scope>
-            <sys_update_name>sys_documentation_u_sample_incident_data_u_number_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_402923_sc_demo_service_task_demo__en</sys_update_name>
             <sys_updated_by>hemanth.jarajapu</sys_updated_by>
-            <sys_updated_on>2021-04-20 13:23:36</sys_updated_on>
+            <sys_updated_on>2021-05-05 15:25:07</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
