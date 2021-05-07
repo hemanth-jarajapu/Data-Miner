@@ -25,7 +25,7 @@ function generateMsgErrSheet() {
     var downloadLink;
     var dataType = 'application/vnd.ms-excel';
     var tableSelect = gel("msgErrData");
-    var tableHTML = tableSelect.outerHTML.replace(/ /g, '%20');
+	var tableHTML = encodeURIComponent(tableSelect.outerHTML);
     var filename = gel('tableName').value + '_msg_err_data.xls';
     downloadLink = document.createElement("a");
     if (navigator.msSaveOrOpenBlob) {
@@ -68,13 +68,13 @@ function generateMsgErrSheet() {
         <sys_created_by>swarnim.das</sys_created_by>
         <sys_created_on>2021-05-05 15:40:40</sys_created_on>
         <sys_id>490412fb2ff7201035053f96f699b6e1</sys_id>
-        <sys_mod_count>39</sys_mod_count>
+        <sys_mod_count>43</sys_mod_count>
         <sys_name>DataMiningOperations</sys_name>
         <sys_package display_value="Data Miner" source="ecf0febe2fe3601035053f96f699b6b9">ecf0febe2fe3601035053f96f699b6b9</sys_package>
         <sys_policy/>
         <sys_scope display_value="Data Miner">ecf0febe2fe3601035053f96f699b6b9</sys_scope>
         <sys_update_name>sys_ui_page_490412fb2ff7201035053f96f699b6e1</sys_update_name>
         <sys_updated_by>hemanth.jarajapu</sys_updated_by>
-        <sys_updated_on>2021-05-06 09:37:37</sys_updated_on>
+        <sys_updated_on>2021-05-06 15:10:16</sys_updated_on>
     </sys_ui_page>
 </record_update>
