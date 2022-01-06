@@ -2,18 +2,19 @@
     <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
+        <action_status/>
         <action_template/>
         <active>true</active>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
+        <compiler_build/>
         <copied_from/>
         <copied_from_name/>
         <description/>
         <ih_action>false</ih_action>
         <internal_name>dm__perform_disablement</internal_name>
         <label_cache>[{"name":"{{action.table_name}}","label":"action➛Table Name","type":"action","ref":""},{"name":"{{step[e384ac58-5def-4f9e-8e3d-cc89ed2edcc1].variable}}","label":"step➛Script step➛variable","type":"step","ref":""},{"name":"{{step[e384ac58-5def-4f9e-8e3d-cc89ed2edcc1].disableresult}}","label":"step➛Script step➛disableResult","type":"step","ref":""},{"name":"{{step[e384ac58-5def-4f9e-8e3d-cc89ed2edcc1].fieldstomodify}}","label":"step➛Script step➛fieldsToModify","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>3b714e002f48701035053f96f699b647</latest_snapshot>
         <master_snapshot>b3908d592ff3201035053f96f699b6d5</master_snapshot>
         <name>DM - Perform Disablement</name>
         <natlang/>
@@ -57,6 +58,7 @@
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="DM - Perform Disablement">171eb4d52ff3201035053f96f699b65e</action>
         <cid>e384ac58-5def-4f9e-8e3d-cc89ed2edcc1</cid>
+        <error_handling_type>1</error_handling_type>
         <extended_inputs/>
         <extended_inputs/>
         <extended_outputs/>
@@ -256,6 +258,8 @@
         <table>var__m_sys_hub_step_ext_input_da908d592ff3201035053f96f699b635</table>
         <value>{{action.table_name}}</value>
     </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_da908d592ff3201035053f96f699b635^id=da908d592ff3201035053f96f699b635"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=da908d592ff3201035053f96f699b635"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=da908d592ff3201035053f96f699b635^sys_idNOT IN6e908d592ff3201035053f96f699b63c"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -420,6 +424,30 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_da908d592ff3201035053f96f699b635^sys_idNOT IN443f27912fbf201035053f96f699b68f"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>disableresult</element>
+        <help/>
+        <hint/>
+        <label>disableResult</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_da908d592ff3201035053f96f699b635</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-28 03:53:39</sys_created_on>
+        <sys_id>443f27912fbf201035053f96f699b68f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Data Miner" source="ecf0febe2fe3601035053f96f699b6b9">ecf0febe2fe3601035053f96f699b6b9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Data Miner">ecf0febe2fe3601035053f96f699b6b9</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-28 03:53:39</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
     <sys_hub_action_input action="delete_multiple" query="model=171eb4d52ff3201035053f96f699b65e^sys_idNOT IN9e9085592ff3201035053f96f699b6d6"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -790,6 +818,7 @@
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
+        <action_status/>
         <action_template/>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
@@ -842,6 +871,7 @@
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="DM - Perform Disablement">b3908d592ff3201035053f96f699b6d5</action>
         <cid>e384ac58-5def-4f9e-8e3d-cc89ed2edcc1</cid>
+        <error_handling_type>1</error_handling_type>
         <extended_inputs/>
         <extended_inputs/>
         <extended_outputs/>
@@ -1041,6 +1071,8 @@
         <table>var__m_sys_hub_step_ext_input_4ca08d592ff3201035053f96f699b6e0</table>
         <value>{{action.table_name}}</value>
     </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_4ca08d592ff3201035053f96f699b6e0^id=4ca08d592ff3201035053f96f699b6e0"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=4ca08d592ff3201035053f96f699b6e0"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=4ca08d592ff3201035053f96f699b6e0^sys_idNOT IN4ca08d592ff3201035053f96f699b6fc"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -1205,6 +1237,30 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_4ca08d592ff3201035053f96f699b6e0^sys_idNOT IN4a3f67912fbf201035053f96f699b694"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>disableresult</element>
+        <help/>
+        <hint/>
+        <label>disableResult</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_4ca08d592ff3201035053f96f699b6e0</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-28 03:53:47</sys_created_on>
+        <sys_id>4a3f67912fbf201035053f96f699b694</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Data Miner" source="ecf0febe2fe3601035053f96f699b6b9">ecf0febe2fe3601035053f96f699b6b9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Data Miner">ecf0febe2fe3601035053f96f699b6b9</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-28 03:53:47</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
     <sys_hub_action_input action="delete_multiple" query="model=b3908d592ff3201035053f96f699b6d5^sys_idNOT IN84a08d592ff3201035053f96f699b6d8"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -1556,4 +1612,8 @@
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_hub_action_type_definition action="update">
+        <sys_id>171eb4d52ff3201035053f96f699b65e</sys_id>
+        <latest_snapshot>b3908d592ff3201035053f96f699b6d5</latest_snapshot>
+    </sys_hub_action_type_definition>
 </record_update>
