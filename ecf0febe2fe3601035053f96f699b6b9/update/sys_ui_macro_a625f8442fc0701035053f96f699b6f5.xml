@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <description/>
+        <media_type/>
+        <name>data_mining_ops_buttons</name>
+        <scoped_name/>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>hemanth.jarajapu</sys_created_by>
+        <sys_created_on>2021-05-06 03:24:59</sys_created_on>
+        <sys_id>a625f8442fc0701035053f96f699b6f5</sys_id>
+        <sys_mod_count>40</sys_mod_count>
+        <sys_name>data_mining_ops_buttons</sys_name>
+        <sys_package display_value="Data Miner" source="ecf0febe2fe3601035053f96f699b6b9">ecf0febe2fe3601035053f96f699b6b9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Data Miner">ecf0febe2fe3601035053f96f699b6b9</sys_scope>
+        <sys_update_name>sys_ui_macro_a625f8442fc0701035053f96f699b6f5</sys_update_name>
+        <sys_updated_by>hemanth.jarajapu</sys_updated_by>
+        <sys_updated_on>2021-05-07 09:25:03</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+   <div class="flex-container">
+      <input type='button' class='btn btn-primary' id='createChoices' onclick='createChoices()' value='Create Choices for Filtering'/>
+      <input type='button' class='btn btn-primary' id='generateMsgErrSheet' onclick='generateMsgErrSheet()' value='Generate Msg-Err Count Sheet'/>
+   </div>
+   <style>
+      .flex-container{
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+      align-content: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      }
+      .flex-container input{
+      -webkit-order: 0;
+      -ms-flex-order: 0;
+      order: 0;
+      -webkit-flex: 0 1 auto;
+      -ms-flex: 0 1 auto;
+      flex: 0 1 auto;
+      -webkit-align-self: auto;
+      -ms-flex-item-align: auto;
+      align-self: auto;
+      margin-bottom: 10px;
+      margin-right: 10px;
+      }
+      .btn {
+      color:black;
+      background-color:white;
+      transition-duration: 0.4s;
+      }
+      .btn:hover {
+      background-color: #1f8476; /* Green */
+      color: white;
+      }
+   </style>
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+</record_update>

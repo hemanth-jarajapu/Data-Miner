@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="u_month" table="u_ebond_details">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>edge_encryption_enabled=true,import_attribute_name=month</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>month</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_month</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>u_ebond_details</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-05 14:58:49</sys_created_on>
+        <sys_id>489a82b72fb320100fa0a85df699b686</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>month</sys_name>
+        <sys_package display_value="Data Miner" source="ecf0febe2fe3601035053f96f699b6b9">ecf0febe2fe3601035053f96f699b6b9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Data Miner">ecf0febe2fe3601035053f96f699b6b9</sys_scope>
+        <sys_update_name>sys_dictionary_u_ebond_details_u_month</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-05 14:58:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Data Miner">ecf0febe2fe3601035053f96f699b6b9</application>
+        <file_path/>
+        <instance_id>020515c8db1cbf4042b321c4059619c4</instance_id>
+        <instance_name>dev75068</instance_name>
+        <name>sys_dictionary_u_ebond_details_u_month</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_month" table="u_ebond_details"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true,import_attribute_name=month</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>month</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_month</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_ebond_details</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-05-05 14:58:49</sys_created_on><sys_id>489a82b72fb320100fa0a85df699b686</sys_id><sys_mod_count>0</sys_mod_count><sys_name>month</sys_name><sys_package display_value="Data Miner" source="ecf0febe2fe3601035053f96f699b6b9">ecf0febe2fe3601035053f96f699b6b9</sys_package><sys_policy/><sys_scope display_value="Data Miner">ecf0febe2fe3601035053f96f699b6b9</sys_scope><sys_update_name>sys_dictionary_u_ebond_details_u_month</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-05-05 14:58:49</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>-4490182</payload_hash>
+        <record_name>ebond details.month</record_name>
+        <reverted_from/>
+        <source>4c70d2772ff7201035053f96f699b6c1</source>
+        <source_table>sys_sync_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-05 15:25:05</sys_created_on>
+        <sys_id>949a82b72fb320100fa0a85df699b6a2</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>1793d09e8c90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-05 15:25:05</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>109a82b70eb32010a7ca4592cbbcaea2</update_guid>
+        <update_guid_history>109a82b70eb32010a7ca4592cbbcaea2:-4490182,63ca7dfb07732010a0c84a6b0bc9a5e4:-1262567162,c5e9b1bbfc732010b4710701faf27a71:-4490182,53593d7b637320101d790dae553ade50:-1262567162,0237bdf74673201007c141d0bd127f1e:-4490182</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>hemanth.jarajapu</sys_created_by>
+        <sys_created_on>2021-05-05 15:37:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>07e9c22ccf224d03887eb5a03c33d221</sys_id>
+        <sys_metadata>489a82b72fb320100fa0a85df699b686</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>month</sys_name>
+        <sys_package display_value="Data Miner" source="ecf0febe2fe3601035053f96f699b6b9">ecf0febe2fe3601035053f96f699b6b9</sys_package>
+        <sys_parent display_value="">c89a82b72fb320100fa0a85df699b654</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Data Miner">ecf0febe2fe3601035053f96f699b6b9</sys_scope>
+        <sys_scope_delete display_value="">2451167e9f2b4af3bb938775d11e4711</sys_scope_delete>
+        <sys_update_name>sys_dictionary_u_ebond_details_u_month</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_u_ebond_details_u_month">949a82b72fb320100fa0a85df699b6a2</sys_update_version>
+        <sys_updated_by>hemanth.jarajapu</sys_updated_by>
+        <sys_updated_on>2021-05-05 15:37:36</sys_updated_on>
+    </sys_metadata_delete>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Data Miner">ecf0febe2fe3601035053f96f699b6b9</claim_owner_scope>
+        <claim_timestamp>1872890486d0000001</claim_timestamp>
+        <metadata_update_name>sys_dictionary_u_ebond_details_u_month</metadata_update_name>
+        <previous_claim_app_version>2.0.1</previous_claim_app_version>
+        <previous_claim_name>Data Miner</previous_claim_name>
+        <previous_claim_scope>ecf0febe2fe3601035053f96f699b6b9</previous_claim_scope>
+        <sys_created_by>hemanth.jarajapu</sys_created_by>
+        <sys_created_on>2023-03-28 14:12:37</sys_created_on>
+        <sys_id>0e2c652e477d2110e080e4be436d43cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>hemanth.jarajapu</sys_updated_by>
+        <sys_updated_on>2023-03-28 14:12:37</sys_updated_on>
+    </sys_claim>
+</record_update>

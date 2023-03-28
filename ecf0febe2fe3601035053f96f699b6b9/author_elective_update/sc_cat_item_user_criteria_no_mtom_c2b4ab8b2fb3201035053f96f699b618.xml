@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
+    <sc_cat_item_user_criteria_no_mtom action="DELETE">
+        <sc_cat_item display_value="Manage Data Mining ">534cf2722f67601035053f96f699b6dd</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
+        <sys_created_by>hemanth.jarajapu</sys_created_by>
+        <sys_created_on>2021-05-03 13:37:17</sys_created_on>
+        <sys_id>c2b4ab8b2fb3201035053f96f699b618</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Manage Data Mining .Users with 'knowledge' role</sys_name>
+        <sys_package display_value="Data Miner" source="ecf0febe2fe3601035053f96f699b6b9">ecf0febe2fe3601035053f96f699b6b9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Data Miner">ecf0febe2fe3601035053f96f699b6b9</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_c2b4ab8b2fb3201035053f96f699b618</sys_update_name>
+        <sys_updated_by>hemanth.jarajapu</sys_updated_by>
+        <sys_updated_on>2021-05-03 13:37:17</sys_updated_on>
+        <user_criteria display_value="Users with 'knowledge' role">ebb789d3ff4131003f07ffffffffff3f</user_criteria>
+    </sc_cat_item_user_criteria_no_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Data Miner">ecf0febe2fe3601035053f96f699b6b9</application>
+        <file_path/>
+        <instance_id>a638dbdfdb0e770c91232f17d496191f</instance_id>
+        <instance_name>dev88383</instance_name>
+        <name>sc_cat_item_user_criteria_no_mtom_c2b4ab8b2fb3201035053f96f699b618</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom"><sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Manage Data Mining ">534cf2722f67601035053f96f699b6dd</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name><sys_created_by>hemanth.jarajapu</sys_created_by><sys_created_on>2021-05-03 13:37:17</sys_created_on><sys_id>c2b4ab8b2fb3201035053f96f699b618</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Manage Data Mining .Users with 'knowledge' role</sys_name><sys_package display_value="Data Miner" source="ecf0febe2fe3601035053f96f699b6b9">ecf0febe2fe3601035053f96f699b6b9</sys_package><sys_policy/><sys_scope display_value="Data Miner">ecf0febe2fe3601035053f96f699b6b9</sys_scope><sys_update_name>sc_cat_item_user_criteria_no_mtom_c2b4ab8b2fb3201035053f96f699b618</sys_update_name><sys_updated_by>hemanth.jarajapu</sys_updated_by><sys_updated_on>2021-05-03 13:37:17</sys_updated_on><user_criteria display_value="Users with 'knowledge' role">ebb789d3ff4131003f07ffffffffff3f</user_criteria></sc_cat_item_user_criteria_no_mtom></record_update>]]></payload>
+        <payload_hash>459632184</payload_hash>
+        <record_name>Manage Data Mining .Users with 'knowledge' role</record_name>
+        <reverted_from/>
+        <source>c50dc54d2fd2101058cbe93df699b693</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>hemanth.jarajapu</sys_created_by>
+        <sys_created_on>2021-05-03 13:37:17</sys_created_on>
+        <sys_id>86b4ab8b2fb3201035053f96f699b61c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179327287b80000001</sys_recorded_at>
+        <sys_updated_by>hemanth.jarajapu</sys_updated_by>
+        <sys_updated_on>2021-05-03 13:37:17</sys_updated_on>
+        <type>Catalog Item Not Available for</type>
+        <update_guid>8eb4ab8b4ab320108f0dff9c97d27c1b</update_guid>
+        <update_guid_history>8eb4ab8b4ab320108f0dff9c97d27c1b:459632184</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Manage Data Mining .Users with 'knowledge' role">f015ebcb2fb3201035053f96f699b625</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>hemanth.jarajapu</sys_created_by>
+        <sys_created_on>2021-05-03 13:38:50</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_no_mtom">sc_cat_item_user_criteria_no_mtom</sys_db_object>
+        <sys_id>0efe5e2ad4c842e98155b7d377433f79</sys_id>
+        <sys_metadata>c2b4ab8b2fb3201035053f96f699b618</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Manage Data Mining .Users with 'knowledge' role</sys_name>
+        <sys_package display_value="Data Miner" source="ecf0febe2fe3601035053f96f699b6b9">ecf0febe2fe3601035053f96f699b6b9</sys_package>
+        <sys_parent display_value="Manage Data Mining ">534cf2722f67601035053f96f699b6dd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Data Miner">ecf0febe2fe3601035053f96f699b6b9</sys_scope>
+        <sys_scope_delete display_value="">2451167e9f2b4af3bb938775d11e4711</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_c2b4ab8b2fb3201035053f96f699b618</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_no_mtom_c2b4ab8b2fb3201035053f96f699b618">86b4ab8b2fb3201035053f96f699b61c</sys_update_version>
+        <sys_updated_by>hemanth.jarajapu</sys_updated_by>
+        <sys_updated_on>2021-05-03 13:38:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

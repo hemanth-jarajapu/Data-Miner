@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>global.DM_ClientCallableUtils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>DM_ClientCallableUtils</name>
+        <script><![CDATA[var DM_ClientCallableUtils = Class.create();
+DM_ClientCallableUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    generateMsgErrHTML: function(tableName, filterQuery) {
+        tableName = tableName ? tableName : this.getParameter("sysparm_tableName");
+        filterQuery = filterQuery ? filterQuery : this.getParameter("sysparm_query");
+
+        var htmlString = "<table id='msgErrData'><tr><th>Company Name</th><th>Partner Name</th><th>application</th><th>service</th><th>ACTION</th><th>Number of Messages</th><th>Number of Errors</th></tr>";
+
+        var gr = new GlideRecord(tableName);
+        var ga1 = new GlideAggregate(tableName);
+        ga1.addEncodedQuery(filterQuery);
+        ga1.groupBy("u_partner_name");
+        ga1.query();
+        while (ga1.next()) {
+            var ga2 = new GlideAggregate(tableName);
+            ga2.addEncodedQuery(ga1.getEncodedQuery());
+            ga2.addQuery("u_partner_name", ga1.u_partner_name);
+            ga2.groupBy("u_action");
+            ga2.addAggregate("SUM", "u_number_of_messages");
+            ga2.addAggregate("SUM", "u_number_of_errors");
+            ga2.query();
+            while (ga2.next()) {
+                gr.initialize();
+                gr.addEncodedQuery(ga2.getEncodedQuery());
+                gr.addQuery("u_action", ga2.u_action);
+                gr.query();
+				gr.next();
+                htmlString += "<tr>";
+                htmlString += "<td>" + gr.u_company_name + "</td>";
+                htmlString += "<td>" + gr.u_partner_name + "</td>";
+                htmlString += "<td>" + gr.u_application + "</td>";
+                htmlString += "<td>" + gr.u_service + "</td>";
+                htmlString += "<td>" + ga2.u_action + "</td>";
+                htmlString += "<td>" + ga2.getAggregate("SUM", "u_number_of_messages") + "</td>";
+                htmlString += "<td>" + ga2.getAggregate("SUM", "u_number_of_errors") + "</td>";
+                htmlString += "</tr>";
+            }
+        }
+        htmlString += "</table>";
+        return htmlString;
+    },
+    type: 'DM_ClientCallableUtils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>hemanth.jarajapu</sys_created_by>
+        <sys_created_on>2021-05-06 05:58:32</sys_created_on>
+        <sys_id>7407954c2f44701035053f96f699b6df</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name>DM_ClientCallableUtils</sys_name>
+        <sys_package display_value="Data Miner" source="ecf0febe2fe3601035053f96f699b6b9">ecf0febe2fe3601035053f96f699b6b9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Data Miner">ecf0febe2fe3601035053f96f699b6b9</sys_scope>
+        <sys_update_name>sys_script_include_7407954c2f44701035053f96f699b6df</sys_update_name>
+        <sys_updated_by>hemanth.jarajapu</sys_updated_by>
+        <sys_updated_on>2021-05-06 15:07:48</sys_updated_on>
+    </sys_script_include>
+</record_update>

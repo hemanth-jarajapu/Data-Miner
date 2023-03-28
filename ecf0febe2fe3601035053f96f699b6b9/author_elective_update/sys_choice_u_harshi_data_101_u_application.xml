@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="u_application" table="u_harshi_data_101" version="3">
+        <sys_choice_set action="DELETE">
+            <element>u_application</element>
+            <name>u_harshi_data_101</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-03 13:28:09</sys_created_on>
+            <sys_id>32d62d44db100110883c68d35b9619c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_application</sys_name>
+            <sys_package display_value="Data Miner" source="ecf0febe2fe3601035053f96f699b6b9">ecf0febe2fe3601035053f96f699b6b9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Data Miner">ecf0febe2fe3601035053f96f699b6b9</sys_scope>
+            <sys_update_name>sys_choice_u_harshi_data_101_u_application</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-03 13:28:09</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Data Miner">ecf0febe2fe3601035053f96f699b6b9</application>
+        <file_path/>
+        <instance_id>a638dbdfdb0e770c91232f17d496191f</instance_id>
+        <instance_name>dev88383</instance_name>
+        <name>sys_choice_u_harshi_data_101_u_application</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="u_application" table="u_harshi_data_101" version="3"><sys_choice_set action="INSERT_OR_UPDATE"><element>u_application</element><name>u_harshi_data_101</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-12-03 13:28:09</sys_created_on><sys_id>32d62d44db100110883c68d35b9619c2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_application</sys_name><sys_package display_value="Data Miner" source="ecf0febe2fe3601035053f96f699b6b9">ecf0febe2fe3601035053f96f699b6b9</sys_package><sys_policy/><sys_scope display_value="Data Miner">ecf0febe2fe3601035053f96f699b6b9</sys_scope><sys_update_name>sys_choice_u_harshi_data_101_u_application</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-12-03 13:28:09</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>-946384107</payload_hash>
+        <record_name>Harshi Data 101.application</record_name>
+        <reverted_from/>
+        <source>e6a336362f27601035053f96f699b6a1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-12-03 13:55:26</sys_created_on>
+        <sys_id>921d210cdb100110883c68d35b9619da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17d80940d820000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-12-03 13:55:26</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>9a1d210c1c100110f77ba76f949c58d9</update_guid>
+        <update_guid_history>9a1d210c1c100110f77ba76f949c58d9:-946384107,da1d210cbd100110cb775d36daeb35d5:-64088417,d21d210c701001101da2d82bd34ec6c5:-1532939256,921d210c991001109812e9c008c858c1:-384786032,521d210c9e10011041697ad1cc77e5bd:-1421171241,121d210c761001101e7f4e86e0d9f2b9:1693311754,de1d210ca01001100a8b09afdca156b4:-1941831240,9e1d210cb9100110ebc09499150b0db0:-401436335,5e1d210c63100110dd95ef14b466d0ac:975320061,1e1d210c1610011025495718239a5fa8:-508355312,da1d210c8a1001107ac64cd1b816e2a4:2021066800,d21d210cb010011091d4adf068728994:204651719,921d210cb0100110c4f5b97187f17190:127618853,921d210c5e100110f6b17f6704847d8c:13335838,c7d6ed44ac10011091e7547e271c2283:719162212,83d6ed44ab100110c851157fa7861580:1363157722,4fd6ed44b7100110f83d63c5a9e45c7c:1692242033,0bd6ed442f10011090877c0c8b41c279:-1717521175,47d6ed445b10011011ddd279b4d67f5d:171071138,03d6ed449c100110674346257a598d5a:-655569157,cbd6ed443c1001109351dbfe4d08c456:-1218482495,87d6ed44be100110f095c50d8e01f053:-1298258334,8bd6ed44cc1001102e9cab2ed0baf943:-1729727876,47d6ed44aa100110f4f922c19b9b4c40:-861310655,03d6ed443d10011072cc53246cf4703d:741893961,fad6ed44a8100110feb18640c5613339:-614798952,fad62d442a100110deee22570c9ddcc7:785232532,bad62d44da10011003ea5395180faac4:-1963621745</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>hemanth.jarajapu</sys_created_by>
+        <sys_created_on>2022-01-06 14:10:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>2c21300836ee4038889391e808c08a40</sys_id>
+        <sys_metadata>32d62d44db100110883c68d35b9619c2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_application</sys_name>
+        <sys_package display_value="Data Miner" source="ecf0febe2fe3601035053f96f699b6b9">ecf0febe2fe3601035053f96f699b6b9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Data Miner">ecf0febe2fe3601035053f96f699b6b9</sys_scope>
+        <sys_scope_delete display_value="">2451167e9f2b4af3bb938775d11e4711</sys_scope_delete>
+        <sys_update_name>sys_choice_u_harshi_data_101_u_application</sys_update_name>
+        <sys_update_version display_value="sys_choice_u_harshi_data_101_u_application">921d210cdb100110883c68d35b9619da</sys_update_version>
+        <sys_updated_by>hemanth.jarajapu</sys_updated_by>
+        <sys_updated_on>2022-01-06 14:10:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

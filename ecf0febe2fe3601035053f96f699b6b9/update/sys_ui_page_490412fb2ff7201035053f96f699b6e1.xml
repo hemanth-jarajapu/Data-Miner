@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[//Create Choices for Filtering
+function createChoices() {
+    var tableName = gel('tableName').value;
+    var gmChoices = new GlideModal('SelectFieldtobeFilterized');
+    gmChoices.setTitle('Select field to be filterized');
+    gmChoices.setPreference('sysparm_tableName', tableName);
+    gmChoices.setWidth(500);
+    gmChoices.render();
+}
+
+//Generate Msg-Err Count Sheet
+function generateMsgErrSheet() {
+    gel('message').innerHTML = "Please wait while we generate the sheet...";
+    gel('messageContainer').style.display = 'block';
+    var utilizeUtils = new GlideAjax("global.DM_ClientCallableUtils");
+    utilizeUtils.addParam("sysparm_name", "generateMsgErrHTML");
+    utilizeUtils.addParam("sysparm_tableName", gel('tableName').value);
+    utilizeUtils.addParam("sysparm_query", gel('query').value);
+    utilizeUtils.getXMLWait();
+    gel('htmlTable').innerHTML = utilizeUtils.getAnswer();
+
+    var downloadLink;
+    var dataType = 'application/vnd.ms-excel';
+    var tableSelect = gel("msgErrData");
+	var tableHTML = encodeURIComponent(tableSelect.outerHTML);
+    var filename = gel('tableName').value + '_msg_err_data.xls';
+    downloadLink = document.createElement("a");
+    if (navigator.msSaveOrOpenBlob) {
+        var blob = new Blob(['\ufeff', tableHTML], {
+            type: dataType
+        });
+        navigator.msSaveOrOpenBlob(blob, filename);
+    } else {
+        gel('messageContainer').style.display = 'none';
+        gel('message').innerHTML = '';
+        // Create a link to the file
+        downloadLink.href = 'data:' + dataType + ', ' + tableHTML;
+        // Set the file name
+        downloadLink.download = filename;
+        //trigger download
+        downloadLink.click();
+    }
+}]]></client_script>
+        <description/>
+        <direct>false</direct>
+        <endpoint/>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+
+	<div id="messageContainer" style="display:none">
+	<div id="message" class="pull-left"></div>
+	<br></br>
+	<br></br>
+	</div>
+	<g:ui_form class="border border-light p-5">
+		<input type='hidden' id='tableName' name='tableName' value='${sysparm_tableName}'/>
+		<input type='hidden' id='query' name='query' value='${sysparm_query}'/>
+	</g:ui_form>
+	<g:macro_invoke macro="data_mining_ops_buttons" />
+	<div id="htmlTable" style="display:none"></div>
+</j:jelly>]]></html>
+        <name>DataMiningOperations</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>swarnim.das</sys_created_by>
+        <sys_created_on>2021-05-05 15:40:40</sys_created_on>
+        <sys_id>490412fb2ff7201035053f96f699b6e1</sys_id>
+        <sys_mod_count>43</sys_mod_count>
+        <sys_name>DataMiningOperations</sys_name>
+        <sys_package display_value="Data Miner" source="ecf0febe2fe3601035053f96f699b6b9">ecf0febe2fe3601035053f96f699b6b9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Data Miner">ecf0febe2fe3601035053f96f699b6b9</sys_scope>
+        <sys_update_name>sys_ui_page_490412fb2ff7201035053f96f699b6e1</sys_update_name>
+        <sys_updated_by>hemanth.jarajapu</sys_updated_by>
+        <sys_updated_on>2021-05-06 15:10:16</sys_updated_on>
+    </sys_ui_page>
+</record_update>
