@@ -8,7 +8,6 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
-        <compiler_build/>
         <copied_from/>
         <copied_from_name/>
         <description/>
@@ -20,6 +19,7 @@
         <natlang/>
         <outputs/>
         <outputs/>
+        <pre_compiled>false</pre_compiled>
         <state>published</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -292,6 +292,7 @@
         <element>table_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -338,6 +339,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -374,6 +376,7 @@
         <element>disableresult</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -420,10 +423,12 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=da908d592ff3201035053f96f699b635"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_da908d592ff3201035053f96f699b635^sys_idNOT IN443f27912fbf201035053f96f699b68f"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>disableresult</element>
@@ -480,6 +485,7 @@
         <element>table_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -526,10 +532,12 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9e9085592ff3201035053f96f699b6d6"/>
     <sys_hub_action_output action="delete_multiple" query="model=171eb4d52ff3201035053f96f699b65e^sys_idNOT IN403f27912fbf201035053f96f699b697"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -563,6 +571,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -610,10 +619,13 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=403f27912fbf201035053f96f699b697"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=403f27912fbf201035053f96f699b697"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=171eb4d52ff3201035053f96f699b65e^sys_idNOT IN008400e92fff201035053f96f699b644,0c8400e92fff201035053f96f699b644,488400e92fff201035053f96f699b643,488400e92fff201035053f96f699b644,808400e92fff201035053f96f699b645,848400e92fff201035053f96f699b644,c08400e92fff201035053f96f699b644,cc8400e92fff201035053f96f699b644"/>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>171eb4d52ff3201035053f96f699b65e</attached_to>
@@ -751,6 +763,7 @@
         <transform_definition_id display_value="to_lower_case">a809ecb7b7133300388487c2de11a9f7</transform_definition_id>
         <ui_id>9edbc898-f55d-448c-879e-0de2dd557770</ui_id>
     </sys_hub_pill_compound>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=171eb4d52ff3201035053f96f699b65e"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_171eb4d52ff3201035053f96f699b65e^sys_idNOT IN169085592ff3201035053f96f699b6dd"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>table_name</element>
@@ -775,6 +788,7 @@
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_171eb4d52ff3201035053f96f699b65e"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_171eb4d52ff3201035053f96f699b65e^sys_idNOT IN843f27912fbf201035053f96f699b69d"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>disableresult</element>
@@ -799,6 +813,7 @@
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_171eb4d52ff3201035053f96f699b65e"/>
     <sys_hub_action_plan action="delete_multiple" query="action_id=171eb4d52ff3201035053f96f699b65e^sys_idNOT IN18a0cd592ff3201035053f96f699b64e"/>
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="DM - Perform Disablement">171eb4d52ff3201035053f96f699b65e</action_id>
@@ -1105,6 +1120,7 @@
         <element>table_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1151,6 +1167,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1187,6 +1204,7 @@
         <element>disableresult</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1233,10 +1251,12 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=4ca08d592ff3201035053f96f699b6e0"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_4ca08d592ff3201035053f96f699b6e0^sys_idNOT IN4a3f67912fbf201035053f96f699b694"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>disableresult</element>
@@ -1293,6 +1313,7 @@
         <element>table_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1339,10 +1360,12 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=84a08d592ff3201035053f96f699b6d8"/>
     <sys_hub_action_output action="delete_multiple" query="model=b3908d592ff3201035053f96f699b6d5^sys_idNOT INc23f67912fbf201035053f96f699b69b"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -1376,6 +1399,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1423,10 +1447,13 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c23f67912fbf201035053f96f699b69b"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c23f67912fbf201035053f96f699b69b"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=b3908d592ff3201035053f96f699b6d5^sys_idNOT IN318440e92fff201035053f96f699b611,3d8440e92fff201035053f96f699b611,798440e92fff201035053f96f699b611,7d8440e92fff201035053f96f699b610,b58440e92fff201035053f96f699b611,b98440e92fff201035053f96f699b610,f18440e92fff201035053f96f699b611,f58440e92fff201035053f96f699b610"/>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>b3908d592ff3201035053f96f699b6d5</attached_to>
@@ -1564,6 +1591,7 @@
         <transform_definition_id display_value="to_lower_case">a809ecb7b7133300388487c2de11a9f7</transform_definition_id>
         <ui_id>3d9efa23-4ed1-43cf-97f9-87574a6e2e61</ui_id>
     </sys_hub_pill_compound>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=b3908d592ff3201035053f96f699b6d5"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_b3908d592ff3201035053f96f699b6d5^sys_idNOT IN08a08d592ff3201035053f96f699b6de"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>table_name</element>
@@ -1588,6 +1616,7 @@
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_b3908d592ff3201035053f96f699b6d5"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_b3908d592ff3201035053f96f699b6d5^sys_idNOT IN063f67912fbf201035053f96f699b6a1"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>disableresult</element>
@@ -1612,8 +1641,10 @@
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_hub_action_type_definition action="update">
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_b3908d592ff3201035053f96f699b6d5"/>
+    <sys_hub_action_type_definition action="UPDATE">
         <sys_id>171eb4d52ff3201035053f96f699b65e</sys_id>
         <latest_snapshot>b3908d592ff3201035053f96f699b6d5</latest_snapshot>
+        <compiler_build/>
     </sys_hub_action_type_definition>
 </record_update>

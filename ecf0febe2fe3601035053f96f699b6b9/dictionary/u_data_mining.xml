@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="live_feed=true" db_object_id="0dcebabe2f27601035053f96f699b6a9" extends="task" label="Data Mining" max_length="40" name="u_data_mining" type="collection">
+        <element choice="1" label="Operation" max_length="40" name="u_operation" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Enable Data Mining" sequence="10" value="Enable Data Mining"/>
+                <element inactive_on_update="false" label="Disable Data Mining" sequence="20" value="Disable Data Mining"/>
+            </choice>
+        </element>
+        <element label="Table" max_length="32" name="u_table" read_only="true" reference="sys_db_object" reference_cascade_rule="delete" type="reference"/>
+    </element>
+</database>

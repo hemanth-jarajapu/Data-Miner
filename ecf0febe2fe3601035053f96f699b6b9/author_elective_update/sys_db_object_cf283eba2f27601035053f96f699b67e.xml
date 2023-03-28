@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access/>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
+        <extension_model/>
+        <is_extendable>false</is_extendable>
+        <label>Imp Tmpl Sys Import Set</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>u_imp_tmpl_sys_import_set</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="Import Set Row" name="sys_import_set_row">0ad7c1852f12101058cbe93df699b69c</super_class>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-20 05:28:29</sys_created_on>
+        <sys_id>cf283eba2f27601035053f96f699b67e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Imp Tmpl Sys Import Set</sys_name>
+        <sys_package display_value="Data Miner" source="ecf0febe2fe3601035053f96f699b6b9">ecf0febe2fe3601035053f96f699b6b9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Data Miner">ecf0febe2fe3601035053f96f699b6b9</sys_scope>
+        <sys_update_name>sys_db_object_cf283eba2f27601035053f96f699b67e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-20 05:28:29</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Data Miner">ecf0febe2fe3601035053f96f699b6b9</application>
+        <file_path/>
+        <instance_id>a638dbdfdb0e770c91232f17d496191f</instance_id>
+        <instance_name>dev88383</instance_name>
+        <name>sys_db_object_cf283eba2f27601035053f96f699b67e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access/><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>Imp Tmpl Sys Import Set</label><live_feed_enabled>false</live_feed_enabled><name>u_imp_tmpl_sys_import_set</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class display_value="Import Set Row" name="sys_import_set_row">0ad7c1852f12101058cbe93df699b69c</super_class><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>admin</sys_created_by><sys_created_on>2021-04-20 05:28:29</sys_created_on><sys_id>cf283eba2f27601035053f96f699b67e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Imp Tmpl Sys Import Set</sys_name><sys_package display_value="Data Miner" source="ecf0febe2fe3601035053f96f699b6b9">ecf0febe2fe3601035053f96f699b6b9</sys_package><sys_policy/><sys_scope display_value="Data Miner">ecf0febe2fe3601035053f96f699b6b9</sys_scope><sys_update_name>sys_db_object_cf283eba2f27601035053f96f699b67e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-04-20 05:28:29</sys_updated_on><update_access>false</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>-1549631001</payload_hash>
+        <record_name>Imp Tmpl Sys Import Set</record_name>
+        <reverted_from/>
+        <source>e6a336362f27601035053f96f699b6a1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-20 05:28:30</sys_created_on>
+        <sys_id>97283eba2f27601035053f96f699b6b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>178edc05ca90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-20 05:28:30</sys_updated_on>
+        <type>Table</type>
+        <update_guid>13283eba532760105a08172848e669b2</update_guid>
+        <update_guid_history>13283eba532760105a08172848e669b2:-1549631001</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-20 05:36:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>269d480d023c46fe916d3f559bfb15c4</sys_id>
+        <sys_metadata>cf283eba2f27601035053f96f699b67e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Imp Tmpl Sys Import Set</sys_name>
+        <sys_package display_value="Data Miner" source="ecf0febe2fe3601035053f96f699b6b9">ecf0febe2fe3601035053f96f699b6b9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Data Miner">ecf0febe2fe3601035053f96f699b6b9</sys_scope>
+        <sys_scope_delete display_value="">2451167e9f2b4af3bb938775d11e4711</sys_scope_delete>
+        <sys_update_name>sys_db_object_cf283eba2f27601035053f96f699b67e</sys_update_name>
+        <sys_update_version display_value="sys_db_object_cf283eba2f27601035053f96f699b67e">97283eba2f27601035053f96f699b6b2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-20 05:36:22</sys_updated_on>
+    </sys_metadata_delete>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Data Miner">ecf0febe2fe3601035053f96f699b6b9</claim_owner_scope>
+        <claim_timestamp>1872890491b0000001</claim_timestamp>
+        <metadata_update_name>sys_db_object_cf283eba2f27601035053f96f699b67e</metadata_update_name>
+        <previous_claim_app_version>2.0.1</previous_claim_app_version>
+        <previous_claim_name>Data Miner</previous_claim_name>
+        <previous_claim_scope>ecf0febe2fe3601035053f96f699b6b9</previous_claim_scope>
+        <sys_created_by>hemanth.jarajapu</sys_created_by>
+        <sys_created_on>2023-03-28 14:12:37</sys_created_on>
+        <sys_id>462ca52e477d2110e080e4be436d4304</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>hemanth.jarajapu</sys_updated_by>
+        <sys_updated_on>2023-03-28 14:12:37</sys_updated_on>
+    </sys_claim>
+</record_update>

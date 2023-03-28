@@ -6,7 +6,6 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2021-04-20 06:36:34</sys_created_on>
-            <sys_id>ecc7c7722fa7601035053f96f699b6b8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>u_operation</sys_name>
             <sys_package display_value="Data Miner" source="ecf0febe2fe3601035053f96f699b6b9">ecf0febe2fe3601035053f96f699b6b9</sys_package>
@@ -30,7 +29,6 @@
             <sys_created_on>2021-04-20 06:36:34</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>65970f722fa7601035053f96f699b6f7</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2021-04-20 06:50:24</sys_updated_on>
@@ -50,7 +48,6 @@
             <sys_created_on>2021-04-20 06:37:05</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>8cd7877e2f67601035053f96f699b670</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2021-04-20 06:50:20</sys_updated_on>

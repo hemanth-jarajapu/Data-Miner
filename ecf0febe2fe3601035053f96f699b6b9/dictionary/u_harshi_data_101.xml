@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5444ddd5db210110883c68d35b961958" extends="sys_import_set_row" max_length="40" name="u_harshi_data_101" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ACTION" label="ACTION" max_length="40" name="u_action" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ACTION_MSTR" label="ACTION_MSTR" max_length="40" name="u_action_mstr" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=application" label="application" max_length="40" name="u_application" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Company Name" label="Company Name" max_length="46" name="u_company_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Message Protocol" label="Message Protocol" max_length="40" name="u_message_protocol" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=MNTH_DT" label="MNTH_DT" max_length="40" name="u_mnth_dt" type="glide_date"/>
+        <element attributes="import_attribute_name=Number of Errors" label="Number of Errors" max_length="40" name="u_number_of_errors" type="integer"/>
+        <element attributes="import_attribute_name=Number of Messages" label="Number of Messages" max_length="40" name="u_number_of_messages" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Partner Name" label="Partner Name" max_length="54" name="u_partner_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Partner Type" label="Partner Type" max_length="40" name="u_partner_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=service" label="service" max_length="40" name="u_service" type="string"/>
+    </element>
+</database>
